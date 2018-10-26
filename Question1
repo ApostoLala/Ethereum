@@ -1,0 +1,12 @@
+hash function:
+可能會產生碰撞,i.e.
+Given H:hash function, ramdomly select x1, x2, then H(x1) = H(x2).
+
+cryptographic hash:
+satisfied therr properies
+1. one-way
+2. weak collision resistance
+3. strong collision resistance
+That is, Given H':cryptographic hash function,
+it's very hard to find x1, x2 such that H(x1) = H(x2).
+and it's very hard to find x3, x4 when given H(x3), H(x4).
